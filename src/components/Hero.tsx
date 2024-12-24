@@ -29,7 +29,7 @@ export const Hero = () => {
           >
             <Button 
               size="lg" 
-              className="bg-white text-agv-dark hover:bg-white/90"
+              className="bg-agv-primary text-white hover:bg-agv-primary/90"
               onClick={() => window.open("https://www.geckoterminal.com/solana/pools/HQVrvjnhXZ4u9hbWzL3s46BTyjm7vqQwhHi1fUCEttG3", "_blank")}
             >
               Get Started

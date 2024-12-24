@@ -18,7 +18,7 @@ export const Community = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
               size="lg"
-              className="bg-[#1DA1F2] hover:bg-[#1DA1F2]/90"
+              className="bg-agv-primary hover:bg-agv-primary/90 text-white"
               onClick={() => window.open("https://x.com/AGVcoin", "_blank")}
             >
               <Twitter className="mr-2" />
@@ -26,7 +26,7 @@ export const Community = () => {
             </Button>
             <Button
               size="lg"
-              className="bg-[#0088cc] hover:bg-[#0088cc]/90"
+              className="bg-agv-secondary hover:bg-agv-secondary/90 text-white"
               onClick={() => window.open("https://t.me/agentversecoin", "_blank")}
             >
               <Send className="mr-2" />
