@@ -20,8 +20,8 @@ export default {
     extend: {
       colors: {
         agv: {
-          primary: "#9b87f5",
-          secondary: "#7E69AB",
+          primary: "#212ad8",
+          secondary: "#f700ff",
           dark: "#1A1F2C",
           light: "#D6BCFA",
         },
