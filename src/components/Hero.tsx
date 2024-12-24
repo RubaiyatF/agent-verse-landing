@@ -37,7 +37,7 @@ export const Hero = () => {
             <Button 
               size="lg" 
               variant="outline" 
-              className="text-white border-white hover:bg-white/10"
+              className="text-agv-primary border-white hover:bg-white/10"
               onClick={() => window.open("https://medium.com/@rubaiyatfarhan/agent-universe-coin-agv-108e738484aa", "_blank")}
             >
               Learn More

@@ -36,7 +36,7 @@ export const HowItWorks = () => {
               viewport={{ once: true }}
               className="relative"
             >
-              <div className="text-6xl font-bold text-agv-primary/20 mb-4">
+              <div className="text-6xl font-bold text-white/20 mb-4">
                 {step.number}
               </div>
               <h3 className="text-xl font-semibold mb-2">{step.title}</h3>
