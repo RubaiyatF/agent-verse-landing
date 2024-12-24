@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 
 export const Hero = () => {
   return (
-    <div className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-agv-primary to-agv-secondary">
-      <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]" />
+    <div className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[url('/lovable-uploads/40a57087-c8e1-4cbd-8f78-a116cd546071.png')] bg-cover bg-center">
+      <div className="absolute inset-0 bg-black/50" />
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center">
@@ -27,10 +27,19 @@ export const Hero = () => {
             transition={{ delay: 0.2 }}
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
-            <Button size="lg" className="bg-white text-agv-dark hover:bg-white/90">
+            <Button 
+              size="lg" 
+              className="bg-white text-agv-dark hover:bg-white/90"
+              onClick={() => window.open("https://www.geckoterminal.com/solana/pools/HQVrvjnhXZ4u9hbWzL3s46BTyjm7vqQwhHi1fUCEttG3", "_blank")}
+            >
               Get Started
             </Button>
-            <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/10">
+            <Button 
+              size="lg" 
+              variant="outline" 
+              className="text-white border-white hover:bg-white/10"
+              onClick={() => window.open("https://medium.com/@rubaiyatfarhan/agent-universe-coin-agv-108e738484aa", "_blank")}
+            >
               Learn More
             </Button>
           </motion.div>
